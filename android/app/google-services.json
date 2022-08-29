@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "844567794669",
+    "project_id": "looknote",
+    "storage_bucket": "looknote.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844567794669:android:635c51a543e15c57784de4",
+        "android_client_info": {
+          "package_name": "kr.co.befferent.looknote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844567794669-7qm7p0o5740ocrm810e020bhbbhvfmaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZuPbvcEzGC0RmKlCeQ_n-976xqvEGUQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844567794669-7qm7p0o5740ocrm810e020bhbbhvfmaa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "844567794669-6ijql9fvemmmlvg1quqnl6n125auqnr0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.kr.looknote"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

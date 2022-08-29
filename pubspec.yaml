@@ -1,0 +1,118 @@
+name: looknote
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter         
+
+  http: ^0.13.4
+  dio: ^4.0.6
+  retrofit: ^3.0.1+1
+
+  shared_preferences: ^2.0.13
+  equatable: ^2.0.3
+  get_it: ^7.2.0
+  freezed_annotation: ^1.1.0
+  provider: ^6.0.2
+  path_provider: ^2.0.9
+  intl: ^0.17.0
+
+  cupertino_icons: ^1.0.2
+  dotted_border: ^2.0.0+2
+  modal_bottom_sheet: ^2.0.0
+  image_cropper: ^1.5.0
+  image_picker: ^0.8.4+10
+  webview_flutter: ^3.0.0
+  pull_to_refresh: ^2.0.0
+
+  url_launcher: ^6.0.20
+  cached_network_image: ^3.2.0
+  flutter_cache_manager: ^3.3.0
+  async: ^2.8.2
+
+  firebase_core: ^1.14.0
+  firebase_analytics: ^9.1.4
+  flutter_svg: ^1.0.3
+  flutter_svg_provider: ^1.0.3
+
+  #auth
+  kakao_flutter_sdk_user: ^1.1.0 # 카카오 로그인
+  sign_in_with_apple: ^3.3.0
+
+  #kakao link
+  kakao_flutter_sdk_link: ^1.1.1 # 카카오링크
+
+  #misc
+  scrolls_to_top: ^1.1.1
+  logger: ^1.1.0
+  permission_handler: ^9.2.0
+  device_info: ^2.0.3
+  package_info: ^2.0.2
+
+  #notification
+  #flutter_local_notifications: ^9.5.3+1
+  #firebase_messaging: ^11.4.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  json_serializable: ^6.1.5
+  freezed: ^1.1.1
+  build_runner: ^2.1.8
+  retrofit_generator: ^4.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/workthrough/
+    - assets/images/login/
+    - assets/images/color/inactive/
+    - assets/images/color/active/
+    - assets/images/feed/
+    - assets/images/guide/
+    - assets/images/bottom/
+    - assets/images/imagecrop/
+    - assets/images/community/
+
+    - assets/images/makepost/
+    - assets/images/mynote/
+
+    - assets/images/signup/
+    - assets/images/drawer/
+    - assets/icons/
+
+
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard/Pretendard-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Pretendard/Pretendard-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Pretendard/Pretendard-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Pretendard/Pretendard-Bold.ttf
+          weight: 700
+    - family: WorkSans
+      fonts:
+        - asset: assets/fonts/WorkSans/WorkSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/WorkSans/WorkSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/WorkSans/WorkSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/WorkSans/WorkSans-ExtraBold.ttf
+          weight: 800
